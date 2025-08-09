@@ -1,0 +1,28 @@
+{
+  "name": "pinata-nft-uploader",
+  "version": "1.0.0",
+  "description": "A TypeScript tool for uploading NFT images and metadata to Pinata IPFS",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "batch": "ts-node src/index.ts batch",
+    "batch:no-suffix": "ts-node src/index.ts batch --no-suffix",
+    "single": "ts-node src/index.ts single",
+    "test": "ts-node src/index.ts test",
+    "pin": "ts-node src/index.ts pin",
+    "queue": "ts-node src/index.ts queue"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "pinata": "^2.4.9"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

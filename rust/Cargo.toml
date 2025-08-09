@@ -1,0 +1,18 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+chrono = "0.4.41"
+clap = { version = "4.5.42", features = ["derive"] }
+pinata-sdk = "1.1.0"
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.47.0", features = ["full"] }
+tokio-retry = "0.3.0"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
+serde_json = { version = "1.0.141", features = ["default"] }
+dotenvy = "0.15.7"
+walkdir = "2.5.0"

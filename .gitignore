@@ -1,0 +1,6 @@
+.vscode
+.idea
+.env
+.env.example
+assets
+node_modules
